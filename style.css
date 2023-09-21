@@ -1,0 +1,81 @@
+body {
+    background-image: url("imagenes/2.jpg");
+    background-size: cover;
+}
+
+
+.Ubicacion-link {
+    position: fixed;
+    bottom: 20px;
+    right: 0.1px;
+    display: block;
+    width: 300px;
+    height: 175px;
+    background-image: url("imagenes/5.png");
+    background-size: cover;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.logo{
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  background-color: black;
+  height: auto;
+  width: auto;
+}
+span{
+  color: #f70029;
+}
+nav ul a{
+  list-style-type: none;
+  display: inline-block;
+  padding: 0.1px 50px;
+  font-size: 50px;
+}
+nav ul  a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+  background:#000000;
+  padding: 12px 30px;
+  border-radius: 400px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 40px;
+  transition: .4s;
+}
+nav ul a:hover{
+  color: #632d2d;
+  transition: .3s;
+  transform: scale(1.3);
+  cursor: pointer;
+}
+button{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+  background:#000000;
+  padding: 12px 30px;
+  border-radius: 400px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 15px;
+  transition: .4s;
+}
+button:hover{
+  transition: .3s;
+  transform: scale(1.3);
+  cursor: pointer;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -ms-transition: .3s;
+  -o-transition: .3s;
+}
